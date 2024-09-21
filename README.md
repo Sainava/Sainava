@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Web Development.<br>🌱 I’m currently learning Blockchain.<br>💬 Ask me about my interests.<br>
+🔭 I’m currently working on Web Development.<br>🌱 I’m currently learning AI/ML.<br>💬 Ask me about my interests.<br>
 
 
 ## 🌐 Socials:
