@@ -76,9 +76,12 @@
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=Sainava&theme=algolia&show_border=false&include_all_commits=false&count_private=false)  
-![](https://nirzak-streak-stats.vercel.app/?user=Sainava&theme=algolia&show_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Sainava&theme=algolia&show_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Main Stats](https://github-readme-stats.vercel.app/api?username=Sainava&theme=algolia&show_border=false&cache_seconds=1800)
+
+![Streak Stats](https://nirzak-streak-stats.vercel.app/?user=Sainava&theme=algolia&show_border=false)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sainava&theme=algolia&show_border=false&layout=compact&cache_seconds=1800)
+
 
 
 ## 🏆 GitHub Trophies
