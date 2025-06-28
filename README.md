@@ -93,6 +93,8 @@
 
 ![](https://github-contributor-stats.vercel.app/api?username=Sainava&limit=5&theme=algolia&show_all_yearly_contributions=true)
 
----
 
-[![](https://visitcount.itsvg.in/api?id=Sainava&icon=0&color=0)](https://visitcount.itsvg.in)
+[![Visitor Badge](https://api.visitorbadge.io/api/VisitorHit?user=Sainava&repo=Sainava&countColor=%237B1E7A)](https://github.com/Sainava)
+
+
+
