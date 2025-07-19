@@ -6,7 +6,7 @@
 <h1 align="center">Hello There, I am Sainava Modak</h1>
 
 
-## 💫 About Me
+## ☝️ About Me
 
 🔭 I'm a passionate Full Stack Developer with a growing interest in AI/ML  
 📚 Currently learning and building in the fields of machine learning and data structures  
