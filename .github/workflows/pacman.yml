@@ -1,3 +1,4 @@
+# .github/workflows/pacman.yml
 name: Generate Pac-Man Contribution Graph
 
 on:
@@ -20,12 +21,17 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Pac-Man graphs (light & dark)
-        uses: abozanona/pacman-contribution-graph@main
+        # Use the correct action: Platane/snk@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: Sainava
+          # Add the 'game' input to specify pacman
+          game: pacman
+          # Correct the outputs format to a comma-separated string
+          # and specify the dark theme for the second file
           outputs: |
             dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg
+            dist/pacman-contribution-graph-dark.svg?palette=github-dark
 
       - name: Push graphs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
