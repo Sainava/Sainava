@@ -1,8 +1,8 @@
-name: Generate Pacman Game
+name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs every 24 hours at midnight UTC
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
   workflow_dispatch:
   push:
     branches:
@@ -19,12 +19,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate pacman-contribution-graph.svg
+      - name: Generate Pac-Man graphs (light & dark)
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: Sainava
+          outputs: |
+            dist/pacman-contribution-graph.svg
+            dist/pacman-contribution-graph-dark.svg
 
-      - name: Push pacman-contribution-graph.svg to the output branch
+      - name: Push graphs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
