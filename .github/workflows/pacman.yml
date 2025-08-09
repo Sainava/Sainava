@@ -25,8 +25,8 @@ jobs:
         with:
           github_user_name: Sainava
           game: pacman
-          # The fix is here: a single-line, comma-separated string
-          outputs: dist/pacman-contribution-graph.svg,dist/pacman-contribution-graph-dark.svg?palette=github-dark
+          # Add a dummy query parameter (?v=1) to the end of each file to bust caches
+          outputs: dist/pacman-contribution-graph.svg?v=1,dist/pacman-contribution-graph-dark.svg?palette=github-dark&v=1
 
       - name: Push graphs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
